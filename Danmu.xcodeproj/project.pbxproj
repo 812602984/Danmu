@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046104891EBD6AC100173246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046104881EBD6AC100173246 /* main.m */; };
+		0461048C1EBD6AC100173246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461048B1EBD6AC100173246 /* AppDelegate.m */; };
+		0461048F1EBD6AC100173246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461048E1EBD6AC100173246 /* ViewController.m */; };
+		046104921EBD6AC100173246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046104901EBD6AC100173246 /* Main.storyboard */; };
+		046104941EBD6AC100173246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046104931EBD6AC100173246 /* Assets.xcassets */; };
+		046104971EBD6AC100173246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046104951EBD6AC100173246 /* LaunchScreen.storyboard */; };
+		046104A41EBD6D9C00173246 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 046104A31EBD6D9C00173246 /* UIView+Extension.m */; };
+		046104A71EBD6E1A00173246 /* DanmuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046104A61EBD6E1A00173246 /* DanmuItemView.m */; };
+		046104AA1EBD6E2A00173246 /* DanmuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046104A91EBD6E2A00173246 /* DanmuItem.m */; };
+		046104AD1EBD6E3800173246 /* DanmuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046104AC1EBD6E3800173246 /* DanmuView.m */; };
+		046104B31EBD72DD00173246 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 046104B21EBD72DD00173246 /* Podfile */; };
+		13A234D2EF0FBFD578E66D3A /* libPods-Danmu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C329DE7E0067B5CE009F7B /* libPods-Danmu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046104841EBD6AC100173246 /* Danmu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Danmu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046104881EBD6AC100173246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0461048A1EBD6AC100173246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0461048B1EBD6AC100173246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0461048D1EBD6AC100173246 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0461048E1EBD6AC100173246 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046104911EBD6AC100173246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046104931EBD6AC100173246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046104961EBD6AC100173246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046104981EBD6AC100173246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046104A21EBD6D9C00173246 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		046104A31EBD6D9C00173246 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		046104A51EBD6E1A00173246 /* DanmuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmuItemView.h; sourceTree = "<group>"; };
+		046104A61EBD6E1A00173246 /* DanmuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmuItemView.m; sourceTree = "<group>"; };
+		046104A81EBD6E2A00173246 /* DanmuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmuItem.h; sourceTree = "<group>"; };
+		046104A91EBD6E2A00173246 /* DanmuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmuItem.m; sourceTree = "<group>"; };
+		046104AB1EBD6E3800173246 /* DanmuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmuView.h; sourceTree = "<group>"; };
+		046104AC1EBD6E3800173246 /* DanmuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmuView.m; sourceTree = "<group>"; };
+		046104B21EBD72DD00173246 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A666FE0FD51D0C29F6E368F8 /* Pods-Danmu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danmu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Danmu/Pods-Danmu.debug.xcconfig"; sourceTree = "<group>"; };
+		AC73A45793FA96BEF808752E /* Pods-Danmu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danmu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Danmu/Pods-Danmu.release.xcconfig"; sourceTree = "<group>"; };
+		B8C329DE7E0067B5CE009F7B /* libPods-Danmu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Danmu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046104811EBD6AC100173246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A234D2EF0FBFD578E66D3A /* libPods-Danmu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0461047B1EBD6AC000173246 = {
+			isa = PBXGroup;
+			children = (
+				046104861EBD6AC100173246 /* Danmu */,
+				046104851EBD6AC100173246 /* Products */,
+				2CCC27A901626205F15322E5 /* Pods */,
+				B8B4919C47E5C61B49839215 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046104851EBD6AC100173246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046104841EBD6AC100173246 /* Danmu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046104861EBD6AC100173246 /* Danmu */ = {
+			isa = PBXGroup;
+			children = (
+				0461049F1EBD6D5C00173246 /* Model */,
+				046104A01EBD6D5C00173246 /* View */,
+				046104A11EBD6D5C00173246 /* Controller */,
+				0461049E1EBD6D5C00173246 /* Category */,
+				0461048A1EBD6AC100173246 /* AppDelegate.h */,
+				0461048B1EBD6AC100173246 /* AppDelegate.m */,
+				0461048D1EBD6AC100173246 /* ViewController.h */,
+				0461048E1EBD6AC100173246 /* ViewController.m */,
+				046104901EBD6AC100173246 /* Main.storyboard */,
+				046104931EBD6AC100173246 /* Assets.xcassets */,
+				046104951EBD6AC100173246 /* LaunchScreen.storyboard */,
+				046104981EBD6AC100173246 /* Info.plist */,
+				046104871EBD6AC100173246 /* Supporting Files */,
+			);
+			path = Danmu;
+			sourceTree = "<group>";
+		};
+		046104871EBD6AC100173246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046104881EBD6AC100173246 /* main.m */,
+				046104B21EBD72DD00173246 /* Podfile */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0461049E1EBD6D5C00173246 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				046104A21EBD6D9C00173246 /* UIView+Extension.h */,
+				046104A31EBD6D9C00173246 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0461049F1EBD6D5C00173246 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046104A81EBD6E2A00173246 /* DanmuItem.h */,
+				046104A91EBD6E2A00173246 /* DanmuItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046104A01EBD6D5C00173246 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046104A51EBD6E1A00173246 /* DanmuItemView.h */,
+				046104A61EBD6E1A00173246 /* DanmuItemView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046104A11EBD6D5C00173246 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				046104AB1EBD6E3800173246 /* DanmuView.h */,
+				046104AC1EBD6E3800173246 /* DanmuView.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2CCC27A901626205F15322E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A666FE0FD51D0C29F6E368F8 /* Pods-Danmu.debug.xcconfig */,
+				AC73A45793FA96BEF808752E /* Pods-Danmu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8B4919C47E5C61B49839215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8C329DE7E0067B5CE009F7B /* libPods-Danmu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046104831EBD6AC100173246 /* Danmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0461049B1EBD6AC100173246 /* Build configuration list for PBXNativeTarget "Danmu" */;
+			buildPhases = (
+				19F90EC72D4228F7EAF21EC4 /* [CP] Check Pods Manifest.lock */,
+				046104801EBD6AC100173246 /* Sources */,
+				046104811EBD6AC100173246 /* Frameworks */,
+				046104821EBD6AC100173246 /* Resources */,
+				42EBDA39C61922F6401DFE4B /* [CP] Embed Pods Frameworks */,
+				574BDD2303E0C671F23E959A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Danmu;
+			productName = Danmu;
+			productReference = 046104841EBD6AC100173246 /* Danmu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0461047C1EBD6AC000173246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shaowu;
+				TargetAttributes = {
+					046104831EBD6AC100173246 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0461047F1EBD6AC100173246 /* Build configuration list for PBXProject "Danmu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0461047B1EBD6AC000173246;
+			productRefGroup = 046104851EBD6AC100173246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046104831EBD6AC100173246 /* Danmu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046104821EBD6AC100173246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046104971EBD6AC100173246 /* LaunchScreen.storyboard in Resources */,
+				046104941EBD6AC100173246 /* Assets.xcassets in Resources */,
+				046104B31EBD72DD00173246 /* Podfile in Resources */,
+				046104921EBD6AC100173246 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19F90EC72D4228F7EAF21EC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42EBDA39C61922F6401DFE4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Danmu/Pods-Danmu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574BDD2303E0C671F23E959A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Danmu/Pods-Danmu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046104801EBD6AC100173246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046104A71EBD6E1A00173246 /* DanmuItemView.m in Sources */,
+				0461048F1EBD6AC100173246 /* ViewController.m in Sources */,
+				0461048C1EBD6AC100173246 /* AppDelegate.m in Sources */,
+				046104A41EBD6D9C00173246 /* UIView+Extension.m in Sources */,
+				046104AA1EBD6E2A00173246 /* DanmuItem.m in Sources */,
+				046104891EBD6AC100173246 /* main.m in Sources */,
+				046104AD1EBD6E3800173246 /* DanmuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046104901EBD6AC100173246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046104911EBD6AC100173246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046104951EBD6AC100173246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046104961EBD6AC100173246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046104991EBD6AC100173246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0461049A1EBD6AC100173246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0461049C1EBD6AC100173246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A666FE0FD51D0C29F6E368F8 /* Pods-Danmu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Danmu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shaowu.Danmu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0461049D1EBD6AC100173246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC73A45793FA96BEF808752E /* Pods-Danmu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Danmu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.shaowu.Danmu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0461047F1EBD6AC100173246 /* Build configuration list for PBXProject "Danmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046104991EBD6AC100173246 /* Debug */,
+				0461049A1EBD6AC100173246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0461049B1EBD6AC100173246 /* Build configuration list for PBXNativeTarget "Danmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0461049C1EBD6AC100173246 /* Debug */,
+				0461049D1EBD6AC100173246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0461047C1EBD6AC000173246 /* Project object */;
+}
