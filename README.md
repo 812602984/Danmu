@@ -81,20 +81,19 @@ CGFloat x = [[obj.layer.presentationLayer valueForKeyPath:@"position.x"] floatVa
 
 ### 方式二：CocoaPods
 
-`Danmu.podspec` 在仓库里，但**目前直接 pod 装不上**，有两处需要先改：
+`Danmu.podspec` 已配置好（`source_files` 指向 `Danmu/Controller/`，依赖里声明了 Masonry），直接引用即可：
 
 ```ruby
-# 原来的路径对不上仓库结构
-s.source_files = "Danmu/Controller", "Controller/*.{h,m}"
+# 走远端
+pod 'Danmu', :git => 'https://github.com/812602984/Danmu.git', :tag => '0.0.1'
 
-# 改成
-s.source_files = "Danmu/Controller/*.{h,m}", "Danmu/Category/*.{h,m}"
-
-# 并且要补上依赖，否则编译报找不到 Masonry
-s.dependency "Masonry"
+# 或者本地路径，改代码调试时更方便
+pod 'Danmu', :path => '../Danmu'
 ```
 
-没有发布到 CocoaPods 官方源，所以 `pod 'Danmu'` 是搜不到的。
+> **没有提交到 CocoaPods 官方源**，所以直接写 `pod 'Danmu'` 是搜不到的，必须带上 `:git` 或 `:path`。
+
+装好后 `pod install`，Masonry 会作为依赖一起装上，不用另外处理。
 
 ## 目录说明
 
@@ -119,4 +118,4 @@ Danmu/
 
 ## License
 
-未声明。代码可自由参考，商用请自行确认。
+MIT，见仓库根目录 `LICENSE`。
